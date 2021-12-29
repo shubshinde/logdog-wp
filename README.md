@@ -7,6 +7,6 @@
 
 <br>
 
-![Screenshot 3](https://i.imgur.com/xEep7GU.png)
+![Screenshot 1](https://i.imgur.com/E4h8Z7w.png)
 
 <p align="center"><img align="center" src="https://phil-isherwood.co.uk/wp-content/uploads/2020/12/WordPress-logotype-alternative-300x162.png" width="200"></p>
