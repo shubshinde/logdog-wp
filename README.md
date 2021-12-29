@@ -3,7 +3,8 @@
 ### Displays Debug Logs in Preety Footer Drawer.
 
 
-![Screenshot 1](https://svg2raster.fileformat.info/vlz.jsp?svg=%2Flogos%2Freactjs%2Freactjs-ar21.svg)      ![Screenshot 2](https://svg2raster.fileformat.info/vlz.jsp?svg=%2Flogos%2Ftailwindcss%2Ftailwindcss-ar21.svg)
+![Screenshot 1](https://phil-isherwood.co.uk/wp-content/uploads/2020/12/WordPress-logotype-alternative-300x162.png)
+
 
 <br><br><br>
 
