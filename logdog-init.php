@@ -18,6 +18,7 @@
  * Domain Path:   /languages
  * License:       GPLv2
  * License URI:   https://www.gnu.org/licenses/gpl-2.0.html
+ * Stable tag:    5.0
  *
  */
 
