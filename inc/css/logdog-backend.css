@@ -1,6 +1,4 @@
 
-
-
 /* The logdogDrawer (background) */
 .logdogDrawer {
   position: fixed; /* Stay in place */
@@ -28,16 +26,13 @@
   -webkit-animation-duration: 0.4s;
   animation-name: slideIn;
   animation-duration: 0.4s;
-  /* overflow-y: scroll; */
 }
 
 /* The Close Button */
 #logdogDrawerClose {
-  color: #fff;
-  float: right;
+  color: orange;
   font-size: 28px;
   font-weight: bold;
-  padding: 10px;
 }
 
 #logdogDrawerClose:hover,
@@ -48,7 +43,7 @@
 }
 
 .logdogDrawer-header {
-  padding: 2px 2px 2px 2px;
+  padding: 2px 0px 2px 2px;
   background-color: #777;
   color: white;
 }
@@ -57,8 +52,6 @@
   max-height: 30vh;
   overflow-y: scroll;
   padding: 10px;
-  background-color: #eee;
-  color: #333;
 }
 
 .logdogDrawer-footer {
@@ -109,4 +102,93 @@
 /* Handle on hover */
 #logdogDrawerLogDisplayArea::-webkit-scrollbar-thumb:hover {
   background: orange; 
+}
+
+
+/* ---- LogDog Theme Toggle Switch ---- */
+
+.logdog-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.logdog-switch input {
+  display:none;
+}
+
+.logdog-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 20px;
+  height: 25px;
+  width: 50px;
+}
+
+.logdog-slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 5px;
+  bottom: 4px;
+  background-color: #444;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+.logdog-input:checked + .logdog-slider {
+  background-color: #444;
+}
+
+.logdog-input:focus + .logdog-slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.logdog-input:checked + .logdog-slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(21px);
+  background-color: #fff;
+}
+
+.logdogDrawer-header-item{
+  display: inline-block;
+}
+
+.logdogDrawer-header-item-start{
+  width: 19%;
+}
+
+.logdogDrawer-header-item-mid{
+  width: 60%;
+}
+
+.logdogDrawer-header-item-end{
+  width: 19%;
+}
+
+/* LogDog Theme Mode */
+.logdog-night-mode{
+  background-color: #555 !important;
+}
+.logdog-night-mode *{
+  color: #fff !important;
+}
+
+.logdog-day-mode{
+  background-color: #fff !important;
+}
+
+.logdog-day-mode *{
+  color: #555 !important;
 }
