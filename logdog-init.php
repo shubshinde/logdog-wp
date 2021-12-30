@@ -45,7 +45,7 @@ define('WP_DEBUGLOG_URL',       WP_CONTENT_URL . '/debug.log');
 add_action('rest_api_init', function () {
     register_rest_route('logdog', 'debug-log', array(
         'methods'  => 'GET',
-        'callback' => 'logdog_get_debug_log'
+        'callback' => 'logdog_get_debug_log',
     ));
 });
 
