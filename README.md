@@ -7,6 +7,6 @@
 
 <br>
 
-<p align="center"><img align="center" src="https://github.com/shubshinde/assets-storage/blob/main/LogDogRec.gif" ></p>
+<p align="center"><img align="center" src="https://github.com/shubshinde/assets-storage/blob/main/LogDogRec.gif"></p>
 
 <p align="center"><img align="center" src="https://phil-isherwood.co.uk/wp-content/uploads/2020/12/WordPress-logotype-alternative-300x162.png" width="200"></p>
