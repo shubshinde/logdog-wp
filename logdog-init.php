@@ -9,7 +9,7 @@
  * @version       1.0.0
  *
  * Plugin Name:   LogDog - Debug Logger
- * Plugin URI:    https://github.com/shubshinde
+ * Plugin URI:    https://github.com/shubshinde/logdog-wp
  * Description:   Displays Debug Logs in Preety Footer Drawer.
  * Version:       1.0.0
  * Author:        Shubham Shinde
